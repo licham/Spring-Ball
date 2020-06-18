@@ -28,212 +28,208 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
-            this.groupBox11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
-            this.groupBox10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-            this.groupBox9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.керуванняСистемоюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.стартToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.паузаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.стопToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.налаштуванняToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.інформаціяПроСтанСистемиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.графікиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.протоколToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.максимальніВідхиленняToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.роботаЗФайламиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.зберегтиПротоколToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.завантажитиПротоколToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(6, 187);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Старт";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.groupBox11);
-            this.groupBox1.Controls.Add(this.groupBox10);
-            this.groupBox1.Controls.Add(this.groupBox9);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(113, 303);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(6, 274);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(99, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Відновлення";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // groupBox11
-            // 
-            this.groupBox11.Controls.Add(this.numericUpDown10);
-            this.groupBox11.Location = new System.Drawing.Point(6, 131);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(99, 50);
-            this.groupBox11.TabIndex = 5;
-            this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Відхилення x3";
-            // 
-            // numericUpDown10
-            // 
-            this.numericUpDown10.Location = new System.Drawing.Point(6, 19);
-            this.numericUpDown10.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown10.Minimum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            -2147483648});
-            this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown10.TabIndex = 2;
-            this.numericUpDown10.ValueChanged += new System.EventHandler(this.NumericUpDownX_ValueChanged);
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.Controls.Add(this.numericUpDown9);
-            this.groupBox10.Location = new System.Drawing.Point(6, 75);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(99, 50);
-            this.groupBox10.TabIndex = 5;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "Відхилення x2";
-            // 
-            // numericUpDown9
-            // 
-            this.numericUpDown9.Location = new System.Drawing.Point(6, 19);
-            this.numericUpDown9.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown9.Minimum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            -2147483648});
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown9.TabIndex = 2;
-            this.numericUpDown9.ValueChanged += new System.EventHandler(this.NumericUpDownX_ValueChanged);
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.numericUpDown8);
-            this.groupBox9.Location = new System.Drawing.Point(6, 19);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(99, 50);
-            this.groupBox9.TabIndex = 5;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Відхилення x1";
-            // 
-            // numericUpDown8
-            // 
-            this.numericUpDown8.Location = new System.Drawing.Point(6, 19);
-            this.numericUpDown8.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown8.Minimum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            -2147483648});
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(85, 20);
-            this.numericUpDown8.TabIndex = 2;
-            this.numericUpDown8.ValueChanged += new System.EventHandler(this.NumericUpDownX_ValueChanged);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(131, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(378, 142);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // button3
+            // groupBox3
             // 
-            this.button3.Location = new System.Drawing.Point(6, 245);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(99, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Налаштування";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.groupBox3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.groupBox3.Controls.Add(this.label1);
+            this.groupBox3.Location = new System.Drawing.Point(12, 27);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(113, 38);
+            this.groupBox3.TabIndex = 4;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Час, с";
             // 
-            // button4
+            // label1
             // 
-            this.button4.Location = new System.Drawing.Point(6, 216);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(99, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Стоп";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.TabIndex = 4;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.керуванняСистемоюToolStripMenuItem,
+            this.інформаціяПроСтанСистемиToolStripMenuItem,
+            this.роботаЗФайламиToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(663, 24);
+            this.menuStrip1.TabIndex = 4;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // керуванняСистемоюToolStripMenuItem
+            // 
+            this.керуванняСистемоюToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.стартToolStripMenuItem,
+            this.паузаToolStripMenuItem,
+            this.стопToolStripMenuItem,
+            this.налаштуванняToolStripMenuItem});
+            this.керуванняСистемоюToolStripMenuItem.Name = "керуванняСистемоюToolStripMenuItem";
+            this.керуванняСистемоюToolStripMenuItem.Size = new System.Drawing.Size(136, 20);
+            this.керуванняСистемоюToolStripMenuItem.Text = "Керування системою";
+            // 
+            // стартToolStripMenuItem
+            // 
+            this.стартToolStripMenuItem.Name = "стартToolStripMenuItem";
+            this.стартToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.стартToolStripMenuItem.Text = "Старт";
+            this.стартToolStripMenuItem.Click += new System.EventHandler(this.стартToolStripMenuItem_Click);
+            // 
+            // паузаToolStripMenuItem
+            // 
+            this.паузаToolStripMenuItem.Enabled = false;
+            this.паузаToolStripMenuItem.Name = "паузаToolStripMenuItem";
+            this.паузаToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.паузаToolStripMenuItem.Text = "Пауза";
+            this.паузаToolStripMenuItem.Click += new System.EventHandler(this.паузаToolStripMenuItem_Click);
+            // 
+            // стопToolStripMenuItem
+            // 
+            this.стопToolStripMenuItem.Enabled = false;
+            this.стопToolStripMenuItem.Name = "стопToolStripMenuItem";
+            this.стопToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.стопToolStripMenuItem.Text = "Стоп";
+            this.стопToolStripMenuItem.Click += new System.EventHandler(this.стопToolStripMenuItem_Click);
+            // 
+            // налаштуванняToolStripMenuItem
+            // 
+            this.налаштуванняToolStripMenuItem.Name = "налаштуванняToolStripMenuItem";
+            this.налаштуванняToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.налаштуванняToolStripMenuItem.Text = "Налаштування";
+            this.налаштуванняToolStripMenuItem.Click += new System.EventHandler(this.налаштуванняToolStripMenuItem_Click);
+            // 
+            // інформаціяПроСтанСистемиToolStripMenuItem
+            // 
+            this.інформаціяПроСтанСистемиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.графікиToolStripMenuItem,
+            this.протоколToolStripMenuItem,
+            this.максимальніВідхиленняToolStripMenuItem});
+            this.інформаціяПроСтанСистемиToolStripMenuItem.Name = "інформаціяПроСтанСистемиToolStripMenuItem";
+            this.інформаціяПроСтанСистемиToolStripMenuItem.Size = new System.Drawing.Size(183, 20);
+            this.інформаціяПроСтанСистемиToolStripMenuItem.Text = "Інформація про стан системи";
+            // 
+            // графікиToolStripMenuItem
+            // 
+            this.графікиToolStripMenuItem.Enabled = false;
+            this.графікиToolStripMenuItem.Name = "графікиToolStripMenuItem";
+            this.графікиToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.графікиToolStripMenuItem.Text = "Графіки";
+            this.графікиToolStripMenuItem.Click += new System.EventHandler(this.графікиToolStripMenuItem_Click);
+            // 
+            // протоколToolStripMenuItem
+            // 
+            this.протоколToolStripMenuItem.Enabled = false;
+            this.протоколToolStripMenuItem.Name = "протоколToolStripMenuItem";
+            this.протоколToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.протоколToolStripMenuItem.Text = "Протокол";
+            this.протоколToolStripMenuItem.Click += new System.EventHandler(this.протоколToolStripMenuItem_Click);
+            // 
+            // максимальніВідхиленняToolStripMenuItem
+            // 
+            this.максимальніВідхиленняToolStripMenuItem.Enabled = false;
+            this.максимальніВідхиленняToolStripMenuItem.Name = "максимальніВідхиленняToolStripMenuItem";
+            this.максимальніВідхиленняToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.максимальніВідхиленняToolStripMenuItem.Text = "Максимальні відхилення";
+            this.максимальніВідхиленняToolStripMenuItem.Click += new System.EventHandler(this.максимальніВідхиленняToolStripMenuItem_Click);
+            // 
+            // роботаЗФайламиToolStripMenuItem
+            // 
+            this.роботаЗФайламиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.зберегтиПротоколToolStripMenuItem,
+            this.завантажитиПротоколToolStripMenuItem});
+            this.роботаЗФайламиToolStripMenuItem.Name = "роботаЗФайламиToolStripMenuItem";
+            this.роботаЗФайламиToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
+            this.роботаЗФайламиToolStripMenuItem.Text = "Робота з файлами";
+            // 
+            // зберегтиПротоколToolStripMenuItem
+            // 
+            this.зберегтиПротоколToolStripMenuItem.Enabled = false;
+            this.зберегтиПротоколToolStripMenuItem.Name = "зберегтиПротоколToolStripMenuItem";
+            this.зберегтиПротоколToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.зберегтиПротоколToolStripMenuItem.Text = "Зберегти протокол";
+            this.зберегтиПротоколToolStripMenuItem.Click += new System.EventHandler(this.зберегтиПротоколToolStripMenuItem_Click);
+            // 
+            // завантажитиПротоколToolStripMenuItem
+            // 
+            this.завантажитиПротоколToolStripMenuItem.Name = "завантажитиПротоколToolStripMenuItem";
+            this.завантажитиПротоколToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.завантажитиПротоколToolStripMenuItem.Text = "Завантажити протокол";
+            this.завантажитиПротоколToolStripMenuItem.Click += new System.EventHandler(this.завантажитиПротоколToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(663, 657);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Пружини та м\'ячі";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox11.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
-            this.groupBox10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-            this.groupBox9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
+            this.EnabledChanged += new System.EventHandler(this.Form1_EnabledChanged);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.NumericUpDown numericUpDown10;
-        private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.NumericUpDown numericUpDown9;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem керуванняСистемоюToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem стартToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem паузаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem стопToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem налаштуванняToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem інформаціяПроСтанСистемиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem графікиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem протоколToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem роботаЗФайламиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem зберегтиПротоколToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem завантажитиПротоколToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem максимальніВідхиленняToolStripMenuItem;
     }
 }
 

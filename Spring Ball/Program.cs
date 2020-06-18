@@ -3,10 +3,10 @@ using System.Windows.Forms;
 
 namespace Spring_Ball
 {
-    static class Program
+    public static class Program
     {
         [STAThread]
-        static void Main()
+        public static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
